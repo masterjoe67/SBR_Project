@@ -1,0 +1,7 @@
+error writing "file1cabbef42e0": broken pipe
+error writing "file1cabbef42e0": broken pipe
+    while executing
+"puts -nonewline $fd "[encoding convertto utf-8 $path]\0""
+    (procedure "write_update_index" line 35)
+    invoked from within
+"write_update_index file1cabbef42e0 {SBR_32_9/ESP32/FIRMWARE/SMARS-esp32/SMARS-esp32.ino SBR_32_9/ESP32/FIRMWARE/SMARS-esp32/config.h SBR_32_9/ESP32/FI..."
